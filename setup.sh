@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
-pkg update -y
-pkg install python -y
-pkg install python-pillow -y
+apt update -y
+apt install python3 -y
+apt install python3-pillow -y
 pip install --upgrade rich
 pip install -r requirements.txt
