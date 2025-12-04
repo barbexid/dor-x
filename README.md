@@ -11,32 +11,39 @@ pkg install python-pillow -y
 sudo apt update && sudo apt upgrade -y
 sudo apt install git python3 python3-pip python3-venv -y
 
+---
+
 # 🚀 Setup Aplikasi
 
-## 1. Kloning repositori
-# cek arsitektur
+### 1. Kloning repositori
+Cek arsitektur:
 uname -m
-# untuk linux x86_64
+
+Untuk linux x86_64:
 git clone https://github.com/barbexid/dor-x
 
-## 2. Masuk ke folder
+### 2. Masuk ke folder
 cd dor-x
 
-## 3. Jalankan setup
+### 3. Jalankan setup
 bash setup.sh
 
-## 4. Konfigurasi Environment Variables
-# hubungi saya di TELEGRAM untuk mendapatkan environment variables
-# https://t.me/barbex_id
-nano .env
-# isi sesuai instruksi lalu simpan
+### 4. Konfigurasi Environment Variables
+Hubungi saya di TELEGRAM untuk mendapatkan environment variables:
+https://t.me/barbex_id
 
-## 5. Jalankan skrip
+Edit file .env:
+nano .env
+Isi sesuai instruksi, lalu simpan.
+
+### 5. Jalankan skrip
 python3 main.py
 
+---
+
 # 💡 Catatan
-# - Pastikan semua perintah dijalankan sesuai platform (Termux atau Linux).
-# - Disarankan pakai virtual environment di Linux:
-#   python3 -m venv venv
-#   source venv/bin/activate
-#   pip install -r requirements.txt
+- Pastikan semua perintah dijalankan sesuai platform (Termux atau Linux).
+- Disarankan pakai virtual environment di Linux:
+  python3 -m venv venv
+  source venv/bin/activate
+  pip install -r requirements.txt
