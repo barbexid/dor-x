@@ -21,7 +21,6 @@ git clone https://github.com/barbexid/dor-x
 ```
 
 ## 4. Masuk ke folder
-ARMv7 (32-bit)
 ```
 cd dor-x
 ```
