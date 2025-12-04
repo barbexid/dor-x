@@ -2,36 +2,28 @@
 
 Ikuti langkah-langkah berikut untuk menginstal dan menjalankan aplikasi:
 
-## 1. Perbarui Termux
+## 1. Perbarui Linux
 ```bash
-sudo apt update && apt upgrade -y
+sudo apt update && sudo apt upgrade -y
 ```
 ## 2. Instal Git
 ```
 sudo apt install git -y
 ```
-## 3. Kloning repositori, Sesuaikan dengan arsitektur android kalian
+## 3. Kloning repositori, Sesuaikan dengan arsitektur kalian
 cek arsitektur 
 ```
 uname -m
 ```
-Untuk android ARMv7 (32-bit)
+Untuk linux x86_64
 ```
-git clone https://github.com/barbexid/dor7
-```
-Untuk android aarch64/ARMv8 (64-bit)
-```
-git clone https://github.com/barbexid/dor8
+git clone https://github.com/barbexid/dor-x
 ```
 
 ## 4. Masuk ke folder
 ARMv7 (32-bit)
 ```
-cd dor7
-```
-ARMv8 (64-bit)
-```
-cd dor8
+cd dor-x
 ```
 ## 5. Jalankan setup
 ```
@@ -46,7 +38,7 @@ nano .env
 Lalu isi dan simpan
 ## 7. Jalankan skrip
 ```
-python main.py
+python3 main.py
 ```
 # 💡 Pastikan semua perintah di atas dijalankan dengan benar.
 
