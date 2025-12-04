@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
-apt update -y
-apt install python3 -y
-apt install python3-pillow -y
-pip install --upgrade rich
-pip install -r requirements.txt
+sudo apt update -y && sudo apt upgrade -y
+sudo apt install -y python3 python3-pip python3-venv
+pip3 install pillow
+pip3 install --upgrade rich
+pip3 install -r requirements.txt
