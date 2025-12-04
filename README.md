@@ -49,13 +49,13 @@ https://t.me/barbex_id
 Edit file .env:
 ---
 nano .env
----
+
 Isi sesuai instruksi, lalu simpan.
 
 ### 5. Jalankan skrip
 ---
 python3 main.py
----
+
 
 # 💡 Catatan
 - Pastikan semua perintah dijalankan sesuai platform (Termux atau Linux).
