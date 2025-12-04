@@ -4,11 +4,11 @@ Ikuti langkah-langkah berikut untuk menginstal dan menjalankan aplikasi:
 
 ## 1. Perbarui Termux
 ```bash
-pkg update && pkg upgrade -y
+sudo apt update && pkg upgrade -y
 ```
 ## 2. Instal Git
 ```
-pkg install git -y
+sudo apt install git -y
 ```
 ## 3. Kloning repositori, Sesuaikan dengan arsitektur android kalian
 cek arsitektur 
