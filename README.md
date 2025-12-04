@@ -4,7 +4,7 @@ Ikuti langkah-langkah berikut untuk menginstal dan menjalankan aplikasi:
 
 ## 1. Perbarui Termux
 ```bash
-sudo apt update && pkg upgrade -y
+sudo apt update && apt upgrade -y
 ```
 ## 2. Instal Git
 ```
