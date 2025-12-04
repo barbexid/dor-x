@@ -1,50 +1,42 @@
-## 📦 Instalasi di Termux
+# 📦 Instalasi
 
-Ikuti langkah-langkah berikut untuk menginstal dan menjalankan aplikasi:
+Ikuti langkah-langkah berikut sesuai platform yang lo pakai:
 
-## 1. Perbarui Linux
-```bash
+## 🔹 Termux (Android)
+pkg update -y && pkg upgrade -y
+pkg install git python -y
+pkg install python-pillow -y
+
+## 🔹 Linux x86_64 (Ubuntu/Debian)
 sudo apt update && sudo apt upgrade -y
-```
-## 2. Instal Git
-```
-sudo apt install git -y
-```
-## 3. Kloning repositori, Sesuaikan dengan arsitektur kalian
-cek arsitektur 
-```
+sudo apt install git python3 python3-pip python3-venv -y
+
+# 🚀 Setup Aplikasi
+
+## 1. Kloning repositori
+# cek arsitektur
 uname -m
-```
-Untuk linux x86_64
-```
+# untuk linux x86_64
 git clone https://github.com/barbexid/dor-x
-```
 
-## 4. Masuk ke folder
-```
+## 2. Masuk ke folder
 cd dor-x
-```
-## 5. Jalankan setup
-```
+
+## 3. Jalankan setup
 bash setup.sh
-```
-## 6. Konfigurasi Environment Variables
-Hubungi saya di  [TELEGRAM](https://t.me/barbex_id)
- untuk mendapatkan environment variables
-```
+
+## 4. Konfigurasi Environment Variables
+# hubungi saya di TELEGRAM untuk mendapatkan environment variables
+# https://t.me/barbex_id
 nano .env
-```
-Lalu isi dan simpan
-## 7. Jalankan skrip
-```
+# isi sesuai instruksi lalu simpan
+
+## 5. Jalankan skrip
 python3 main.py
-```
-# 💡 Pastikan semua perintah di atas dijalankan dengan benar.
 
----
-
-## ℹ️ Catatan Teknis
-
-> Untuk penyedia layanan internet seluler tertentu
-
----
+# 💡 Catatan
+# - Pastikan semua perintah dijalankan sesuai platform (Termux atau Linux).
+# - Disarankan pakai virtual environment di Linux:
+#   python3 -m venv venv
+#   source venv/bin/activate
+#   pip install -r requirements.txt
